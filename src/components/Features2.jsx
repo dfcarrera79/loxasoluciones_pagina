@@ -35,30 +35,32 @@ export const Features2 = () => (
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
             <span className="custom-block-subtitle">
-              Make Data-Driven Decisions
+              Adopta la innovación
             </span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Issue tracking you’ll enjoy using
+            SageVictoriaERP
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              Monitor and track data issues with ease using our intuitive and
-              efficient issue tracking system. Stay ahead of potential problems
-              and improve your workflow.
+            Este software es ideal para diversos tipos de negocios y organizaciones, como:
             </p>
             <ul className="mb-6 text-white">
-              <li className="mb-4 flex">
-                <CheckArrowIcon />
-                <span>Collaborative environment</span>
-              </li>
-              <li className="mb-4 flex">
-                <CheckArrowIcon />
-                <span>Smart issue categorization</span>
-              </li>
-              <li className="mb-4 flex">
-                <CheckArrowIcon />
-                <span>Customizable notifications</span>
-              </li>
-            </ul>
+                <li className="mb-4 flex">
+                  <CheckArrowIcon />
+                  <span>Supermercados, Bodegas de abasto, Ferreterias...</span>
+                </li>
+                <li className="mb-4 flex">
+                  <CheckArrowIcon />
+                  <span>Transportes(Boleteria & Encomiendas)</span>
+                </li>
+                <li className="mb-4 flex">
+                  <CheckArrowIcon />
+                  <span>Productores (Avícolas y productores en general)</span>
+                </li>
+                <li className="mb-4 flex">
+                  <CheckArrowIcon />
+                  <span>Laboratorio Clínico, Médicos, Bares, Restaurantes...</span>
+                </li>
+              </ul>
           </div>
         </div>
       </div>

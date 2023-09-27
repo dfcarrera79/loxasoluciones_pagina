@@ -19,7 +19,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="text-customSecondary text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
-            Discover new data flow
+            Da el salto digital
           </div>
         </motion.div>
         <motion.div
@@ -27,12 +27,12 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
-            <span className="inline md:hidden">Analytics</span>
-            <span className="hidden md:inline">Analytic tools suite</span>
-          </div>
-          <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
-            for developers
+          <div className="text-4xl sm:text-5xl lg:text-6xl xl:text-6xl font-bold tracking-wide text-white px-6 sm:px-8 md:px-16 lg:px-4">
+            <span className="inline md:hidden">Tranforma tu negocio</span>
+            <span className="hidden md:inline">Tranforma tu negocio </span>
+          </div> 
+          <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-6xl xl:text-6xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
+          con LoxaSoluciones
           </div>
         </motion.div>
         <motion.div
@@ -41,8 +41,8 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Experience seamless business integrations and powerful insights with
-            our cutting-edge analytic tools.
+          Expertos en desarrollo de software para potenciar tu empresa. 
+              ¡Descubre el éxito ahora!
           </div>
         </motion.div>
         <motion.div
@@ -52,16 +52,10 @@ export const Hero = () => {
         >
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
             <div
-              className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
-              onClick={() => setIsModalOpen(true)}
-            >
-              Get Started
-            </div>
-            <div
               className="w-64 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition"
-              onClick={() => setIsModalOpen(true)}
+              onClick={() => window.open('http://www.loxasoluciones-cloud.com:9595/demoerp/')}
             >
-              Live demo
+              Demo SageVictoriaERP
             </div>
           </div>
         </motion.div>

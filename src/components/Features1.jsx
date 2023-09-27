@@ -21,29 +21,18 @@ export const Features1 = () => {
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-              <span className="custom-block-subtitle">Embrace Innovation</span>
+              <span className="custom-block-subtitle">Adopta la innovación</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                Unlike any tool you used before
+              SageVictoriaERP
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
-                Discover a new level of data analysis with our innovative and
-                user-friendly platform. Transform your business needs with actionable
-                insights.
+              Conoce SageVictoriaERP, un software de gestión administrativa y contable que se destaca por su facilidad e intuición en su uso. Este sistema está diseñado para ser compatible con sistemas operativos Windows, Linux y Mac, lo que lo hace versátil y accesible para una amplia gama de usuarios.
               </p>
-              <ul className="mb-6 text-white">
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Real-time data visualization</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Advanced predictive analytics</span>
-                </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Seamless integration with APIs</span>
-                </li>
-              </ul>
+
+              <p className="mb-10 text-customGrayText leading-loose">
+              Además de su compatibilidad con estos sistemas operativos,  SageVictoriaERP también se puede utilizar en cualquier navegador web moderno, lo que brinda la flexibilidad de implementarlo en la nube o en servidores propios de tu empresa.
+              </p>
+
             </div>
           </div>
           <div className="w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 lg:pt-10 justify-center lg:pl-4 xl:px-8">
