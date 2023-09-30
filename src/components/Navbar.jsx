@@ -7,7 +7,6 @@ import { Arrow } from "../assets/logos/Arrow.jsx"
 const navbarLinks = [
   { label: "Inicio", href: "#home", ariaLabel: "Home" },
   { label: "Servicios", href: "#feedback", ariaLabel: "Feedback" },
-  { label: "Comprobantes Electrónicos", href: "https://www.loxasoluciones-cloud.com:8081/", ariaLabel: "comprobantes" },
 ];
 
 const dropdownItems = [
@@ -60,7 +59,7 @@ export const Navbar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <div className="hidden lg:flex h-full pl-12 pb-2">
+          <div className="hidden lg:flex h-full pl-12 pb-2 align-baseline">
             {navbarLinks.map(({ href, label, ariaLabel }) => (
               <a className="navbar-link" href={href} aria-label={ariaLabel} key={label}>
                 {label}
@@ -181,6 +180,11 @@ export const Navbar = () => {
                 )}
               </AnimatePresence>
             </div>
+
+            <a className="navbar-link text-center" href="https://www.loxasoluciones-cloud.com:8081/" aria-label="comprobantes">
+            Comprobantes Electrónicos
+              </a>
+      
           </div>
 
         </motion.div>
