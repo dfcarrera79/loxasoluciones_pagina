@@ -55,17 +55,14 @@ export const Testimonials = () => (
               className="w-11/12 sm:w-4/5 md:w-[560px] lg:w-1/3 custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col px-6 py-4"
               key={`${testimonial.customerName}-${index}`}
             >
-              <div className="text-2xl text-customPrimary py-8 font-bold">
+              <div className="text-2xl text-customPrimary text-center py-8 font-bold">
                 {testimonial.title}
               </div>
-              <div className="custom-content-text-white">
+              <div className="custom-content-text-white text-center">
                 {testimonial.content}
               </div>
-              <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
+              <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4 justify-center">
                 <img src={testimonial.image} alt="" width="220px" />
-                <div className="flex flex-col ml-4">
-                  
-                </div>
               </div>
             </div>
           ))}
