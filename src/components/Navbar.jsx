@@ -90,6 +90,7 @@ export const Navbar = () => {
                     <div className="py-2">
                       {dropdownItems.map(({ label, href, ariaLabel }) => (
                         <a
+                          target="_blank"
                           key={href}
                           href={href}
                           onClick={() => setIsOpenERP(false)}
@@ -128,6 +129,7 @@ export const Navbar = () => {
                     <div className="py-2">
                       {dropdownItemsMovil.map(({ label, href, ariaLabel }) => (
                         <a
+                          target="_blank"
                           key={href}
                           href={href}
                           onClick={() => setIsOpenMovil(false)}
@@ -166,6 +168,7 @@ export const Navbar = () => {
                     <div className="py-2">
                       {dropdownItemsTransportes.map(({ label, href, ariaLabel }) => (
                         <a
+                          target="_blank"
                           key={href}
                           href={href}
                           onClick={() => setIsOpenTransportes(false)}
@@ -181,7 +184,7 @@ export const Navbar = () => {
               </AnimatePresence>
             </div>
 
-            <a className="navbar-link text-center" href="https://www.loxasoluciones-cloud.com:8081/" aria-label="comprobantes">
+            <a target="_blank" className="navbar-link text-center" href="https://www.loxasoluciones-cloud.com:8081/" aria-label="comprobantes">
             Comprobantes Electrónicos
               </a>
       
@@ -212,6 +215,7 @@ export const Navbar = () => {
             >
               {navbarLinks.map(({ label, href, ariaLabel }) => (
                 <a
+                  target="_blank"
                   key={href}
                   className="navbar-link"
                   href={href}
@@ -235,6 +239,7 @@ export const Navbar = () => {
                 <div style={{ marginLeft: '20px' }}>
                   {dropdownItems.map(({ label, href, ariaLabel }) => (
                     <a
+                      target="_blank"
                       key={href}
                       href={href}
                       onClick={() => setIsOpenERP(false)}
@@ -260,6 +265,7 @@ export const Navbar = () => {
                 <div style={{ marginLeft: '20px' }}>
                   {dropdownItemsMovil.map(({ label, href, ariaLabel }) => (
                     <a
+                      target="_blank"
                       key={href}
                       href={href}
                       onClick={() => setIsOpenMovil(false)}
@@ -284,6 +290,7 @@ export const Navbar = () => {
                 <div style={{ marginLeft: '20px' }}>
                   {dropdownItemsTransportes.map(({ label, href, ariaLabel }) => (
                     <a
+                      target="_blank"
                       key={href}
                       href={href}
                       onClick={() => setIsOpenTransportes(false)}
@@ -296,8 +303,20 @@ export const Navbar = () => {
                 </div>
               )}    
 
+<a
+                  target="_blank"
+                  className="navbar-link"
+                  href="https://www.loxasoluciones-cloud.com:8081/"
+                  onClick={() => setIsOpen(false)}
+                  aria-label="comprobantes"
+                >
+                  Comprobantes Electrónicos
+                </a>
 
             </div>
+
+
+              
           </motion.div>
         )}
       </AnimatePresence>

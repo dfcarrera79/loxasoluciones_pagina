@@ -4,6 +4,11 @@ export const Footer = () => {
   return (
     <footer>
       <div className="pt-10  lg:pt-20 lg:pb-12 bg-customDarkBg1 radius-for-skewed ">
+
+
+ 
+
+
         <div className="container mx-auto px-4 w-4/5 md:w-11/12 lg:w-10/12 xl:w-4/5 2xl:w-2/3">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-1/3 mb-16 lg:mb-0">
@@ -21,7 +26,11 @@ export const Footer = () => {
               </p>
 
             </div>
-            <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-col flex-wrap justify-between">
+
+
+
+
+           <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-col flex-wrap justify-between">
               <div className="flex flex-row items-end justify-between pb-12">
                 <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0 flex flex-col items-center text-center">
                   <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-user-circle" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -108,7 +117,7 @@ export const Footer = () => {
                   <h3 className="text-gray-400 hover:text-gray-300"> 0986704083 </h3>
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
             &copy; 2022. MIT license.
